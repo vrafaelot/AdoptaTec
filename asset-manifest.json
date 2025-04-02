@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/adoptatec/static/css/main.28ca24d9.css",
+    "main.js": "/adoptatec/static/js/main.c2789642.js",
+    "static/js/453.da849dc6.chunk.js": "/adoptatec/static/js/453.da849dc6.chunk.js",
+    "static/media/carrusel1.png": "/adoptatec/static/media/carrusel1.d9fa252fb18be76d0922.png",
+    "static/media/leo.png": "/adoptatec/static/media/leo.dccb9650a71f8585852b.png",
+    "static/media/oliver.png": "/adoptatec/static/media/oliver.33548e7b5e5cda7488a2.png",
+    "static/media/ginger.png": "/adoptatec/static/media/ginger.ad2da0338ad9a2fa7022.png",
+    "static/media/perrosabrazando.png": "/adoptatec/static/media/perrosabrazando.8be8aba2a9ce7efb10cf.png",
+    "static/media/carrusel2.png": "/adoptatec/static/media/carrusel2.4141ff51a110de7ac343.png",
+    "static/media/adoptatec-logo.png": "/adoptatec/static/media/adoptatec-logo.0e572b230a5f00e3b0c2.png",
+    "static/media/carrusel3.png": "/adoptatec/static/media/carrusel3.4e6299e7d53c32a40fac.png",
+    "static/media/email.svg": "/adoptatec/static/media/email.24ece13fcc2aad6a31014d15aa6c9333.svg",
+    "static/media/youtube.svg": "/adoptatec/static/media/youtube.a1c56c2af7e7a59510920146582f9487.svg",
+    "static/media/whatsapp.svg": "/adoptatec/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
+    "static/media/phone.svg": "/adoptatec/static/media/phone.c2ab0a4bca4049c45e518d35ef1ae3a5.svg",
+    "static/media/slick.svg": "/adoptatec/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/adoptatec/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/adoptatec/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/instagram.svg": "/adoptatec/static/media/instagram.8ff7ce92ad753b591ed4c1d03e84c026.svg",
+    "static/media/slick.woff": "/adoptatec/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/location.svg": "/adoptatec/static/media/location.66cc1d4db3e767d4c2d37ee3ba11767f.svg",
+    "index.html": "/adoptatec/index.html",
+    "static/media/facebook.svg": "/adoptatec/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
+    "main.28ca24d9.css.map": "/adoptatec/static/css/main.28ca24d9.css.map",
+    "main.c2789642.js.map": "/adoptatec/static/js/main.c2789642.js.map",
+    "453.da849dc6.chunk.js.map": "/adoptatec/static/js/453.da849dc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28ca24d9.css",
+    "static/js/main.c2789642.js"
+  ]
+}
