@@ -1,0 +1,129 @@
+.navbar {
+    margin-bottom: 60px;
+}
+
+.donaciones-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.donaciones-header {
+    background-color: #45BA66;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 16px;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.donaciones-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.donaciones-header p {
+    font-size: 1.2em;
+}
+
+.donaciones-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.donacion-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.donacion-card:hover {
+    transform: translateY(-10px);
+}
+
+.donacion-icon {
+    font-size: 3em;
+    color: #45BA66;
+    margin-bottom: 10px;
+}
+
+.donacion-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.donacion-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.donaciones-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1em;
+    color: #555;
+    text-align: left;
+}
+
+.donaciones-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.donacion-item-icon {
+    font-size: 1.5em;
+    color: #45BA66;
+    margin-right: 10px;
+}
+
+.agradecimiento {
+    text-align: center;
+    background-color: #eafaf1;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.agradecimiento-icon {
+    font-size: 3em;
+    color: #45BA66;
+    margin-bottom: 10px;
+}
+
+.agradecimiento h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.agradecimiento p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 700px;
+}
+
+footer {
+    margin-top: 40px;
+}

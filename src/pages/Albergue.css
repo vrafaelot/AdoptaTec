@@ -1,0 +1,111 @@
+.navbar {
+    margin-bottom: 60px;
+}
+
+.albergue-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.albergue-header {
+    background-color: #45BA66;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 16px;
+}
+
+.albergue-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.albergue-header p {
+    font-size: 1.2em;
+}
+
+.albergue-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.albergue-info-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.albergue-info-item h3 {
+    font-size: 1.6em;
+    margin-top: 10px;
+}
+
+.albergue-info-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.albergue-icon {
+    font-size: 3em;
+    color: #45BA66;
+}
+
+.albergue-mision-vision {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #f1f1f1;
+    gap: 50px;
+}
+
+.mision,
+.vision {
+    width: 48%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mision h2,
+.vision h2 {
+    font-size: 2em;
+    color: #45BA66;
+    margin-bottom: 20px;
+}
+
+.mision p,
+.vision p {
+    font-size: 1em;
+    color: #555;
+}
+
+.albergue-map {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.albergue-map h2 {
+    font-size: 2.5em;
+    color: #45BA66;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    margin: 20px 0;
+    width: 100%;
+    height: 400px;
+}
+
+.albergue-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1ab7ae;
+    color: white;
+}

@@ -1,0 +1,115 @@
+.navbar {
+    margin-bottom: 60px; /* Mantén un margen inferior amplio */
+}
+
+.adoptar-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.adoptar-header {
+    background-color: #45BA66; /* Fondo verde */
+    color: white; /* Texto en blanco */
+    text-align: center; /* Texto centrado */
+    padding: 20px 20px; /* Espaciado interno */
+    margin-top: 120px; /* Igual que en Albergue para más espacio */
+    margin-left: 20px; /* Espaciado lateral */
+    margin-right: 20px; /* Espaciado lateral */
+    border-radius: 16px; /* Bordes redondeados */
+    max-width: 1000px;
+    margin: 120px auto; /* Margen superior grande */
+}
+
+.adoptar-header h1 {
+    font-size: 2.5em; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+.adoptar-header p {
+    font-size: 1.2em; /* Tamaño de la fuente del párrafo */
+}
+
+.adoptar-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.info-card {
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-icon {
+    font-size: 3em;
+    color: #45BA66;
+    margin-bottom: 10px;
+}
+
+.adoptar-beneficios {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eafaf1;
+}
+
+.adoptar-beneficios h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.adoptar-beneficios ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.adoptar-beneficios li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.adoptar-testimonios {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.adoptar-testimonios h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonio {
+    max-width: 300px;
+    background-color: rgb(202, 196, 196);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.testimonio p {
+    font-style: italic;
+    color: #555;
+}
+
+.testimonio span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}

@@ -1,0 +1,177 @@
+/* Estilos globales */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Estilos de la página Home */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos del encabezado */
+.home__header {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;
+  padding: 30px;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 80px; /* Ajusta este valor según la altura de tu Navbar */
+}
+
+.home__header-slider {
+  width: 90%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.home__header-image {
+  width: 100%;
+  border-radius: 20px;
+  height: 673px;
+}
+
+/* Ajuste en la galería de animales */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Estilos para la tarjeta de animal */
+.animal-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+}
+
+.animal-card__image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.animal-card:hover .animal-card__image {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen cuando se pasa el cursor */
+}
+
+.animal-card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.animal-card:hover .animal-card__overlay {
+  opacity: 1; /* Muestra la información cuando el usuario pasa el cursor */
+}
+
+.animal-card__overlay h3 {
+  font-size: 2.0em; /* Aumenta el tamaño del título */
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center;
+  max-width: 90%;
+}
+.animal-card__overlay p {
+  font-size: 1.5em; /* Aumenta el tamaño de la descripción */
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Ajuste en .reality-section */
+.reality-section {
+  text-align: center;
+  padding: 30px 0;
+  width: 100%;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+.reality-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.reality-text {
+  max-width: 400px;
+  font-size: 1.1em;
+  color: #666;
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
+.reality-text h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.reality-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 15px;
+  align-self: center;
+}
+
+/* Estilos para el banner de adopción */
+.adopt-banner {
+  background-color: #1ab7ae; /* Color de fondo verde */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0; /* Espacio hacia arriba y abajo */
+}
+
+.adopt-banner h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.adopt-banner p {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+}

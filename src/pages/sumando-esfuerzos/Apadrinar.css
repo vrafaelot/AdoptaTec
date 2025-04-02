@@ -1,0 +1,111 @@
+.navbar {
+    margin-bottom: 80px;
+}
+
+.apadrinar-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.apadrinar-header {
+    background-color: #45BA66;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 16px;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.apadrinar-header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.apadrinar-header p {
+    font-size: 1.2em;
+}
+
+.apadrinar-info {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.info-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-icon {
+    font-size: 2.5em;
+    color: #45BA66;
+    margin-bottom: 10px;
+}
+
+.apadrinar-plan-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.apadrinar-plan-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apadrinar-mensual {
+    background-color: #3498db;
+}
+
+.apadrinar-bimestral {
+    background-color: #f39c12;
+}
+
+.apadrinar-anual {
+    background-color: #e74c3c;
+}
+
+.apadrinar-plan-button:hover {
+    opacity: 0.8;
+}
+
+.apadrinar-beneficios {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eafaf1;
+}
+
+.apadrinar-beneficios h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.apadrinar-beneficios ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.apadrinar-beneficios li {
+    margin-bottom: 10px;
+    color: #555;
+}
