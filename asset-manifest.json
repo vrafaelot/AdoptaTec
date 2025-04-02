@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/adoptatec/static/css/main.28ca24d9.css",
-    "main.js": "/adoptatec/static/js/main.c2789642.js",
+    "main.js": "/adoptatec/static/js/main.81835fff.js",
     "static/js/453.da849dc6.chunk.js": "/adoptatec/static/js/453.da849dc6.chunk.js",
     "static/media/carrusel1.png": "/adoptatec/static/media/carrusel1.d9fa252fb18be76d0922.png",
     "static/media/leo.png": "/adoptatec/static/media/leo.dccb9650a71f8585852b.png",
@@ -24,11 +24,11 @@
     "index.html": "/adoptatec/index.html",
     "static/media/facebook.svg": "/adoptatec/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.28ca24d9.css.map": "/adoptatec/static/css/main.28ca24d9.css.map",
-    "main.c2789642.js.map": "/adoptatec/static/js/main.c2789642.js.map",
+    "main.81835fff.js.map": "/adoptatec/static/js/main.81835fff.js.map",
     "453.da849dc6.chunk.js.map": "/adoptatec/static/js/453.da849dc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28ca24d9.css",
-    "static/js/main.c2789642.js"
+    "static/js/main.81835fff.js"
   ]
 }
