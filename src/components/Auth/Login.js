@@ -13,6 +13,7 @@ const Login = () => {
 
       <div className="auth-container">
         <div className="auth-card">
+        <Link to="/" className="back-button">Volver</Link>
           <h3>Iniciar Sesión</h3>
           <form className="auth-form">
             <div className="input-group">

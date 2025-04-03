@@ -13,6 +13,7 @@ const Register = () => {
 
       <div className="auth-container">
         <div className="auth-card">
+          <Link to="/" className="back-button">Volver</Link>
           <h3>Crear Cuenta</h3>
           <form className="auth-form">
             <div className="input-group">
