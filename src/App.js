@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import Login from './components/Auth/Login';
+import Register from './components/Auth/Register';
 import Albergue from './pages/Albergue';
 import Adoptar from './pages/sumando-esfuerzos/Adoptar';
 import Apadrinar from './pages/sumando-esfuerzos/Apadrinar';
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
         <Route path="/albergue" element={<Albergue />} />
         <Route path="/adoptar" element={<Adoptar />} />
         <Route path="/apadrinar" element={<Apadrinar />} />
